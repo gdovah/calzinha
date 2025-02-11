@@ -35,7 +35,9 @@
   }
 
   body {
-    @apply bg-primary text-foreground antialiased;
+    @apply text-foreground antialiased;
+    background: linear-gradient(135deg, #FCE280 0%, #EBA1B5 100%);
+    min-height: 100vh;
   }
 
   /* Custom animations */
